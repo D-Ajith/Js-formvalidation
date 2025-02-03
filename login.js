@@ -17,10 +17,10 @@ login.addEventListener("submit",(k)=>{
 
     if(user){
         alert("successfully loggedin")
-        location.href="../successful.html"
+        location.href="../JS FORM VALIDATION/successful.html"
     }else{
         alert("user not found")
-        location.href="../login/login.html"
+        location.href="../JS FORM VALIDATION/login.html"
     }
 
 })

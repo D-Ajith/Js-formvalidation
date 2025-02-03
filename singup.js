@@ -73,6 +73,6 @@ signup.addEventListener("submit", (e) => {
     localStorage.setItem("users", JSON.stringify(allUsers));
 
     // Redirect to login page
-    window.location.href = "../login/login.html";
+    window.location.href = "../JS FORM VALIDATION/login.html";
   }
 });
